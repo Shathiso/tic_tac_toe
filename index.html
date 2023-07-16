@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <section class="player-selection">
+        <h1>TIC TAC TOE</h1>
+        <p>Please select whether you want to play as X or O.</p>
+        <button id="playX">X</button>
+        <button id="playO">O</button>
+      </section>
+      <section class="game-wrapper">
+        <button id="cell-0" class="cell"></button>
+        <button id="cell-1" class="cell"></button>
+        <button id="cell-2" class="cell"></button>
+        <button id="cell-3" class="cell"></button>
+        <button id="cell-4" class="cell"></button>
+        <button id="cell-5" class="cell"></button>
+        <button id="cell-6" class="cell"></button>
+        <button id="cell-7" class="cell"></button>
+        <button id="cell-8" class="cell"></button>
+      </section>
+      <footer>
+        <div class="results-wrapper">
+          <label class="">Result: <span id="resultLabel"></span></label>
+        </div>
+        
+        <button id="restart">Restart game</button>
+      </footer>
+    </div>
+	<script type="module" src="script.js"></script>
+  </body>
+</html>

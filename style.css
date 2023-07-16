@@ -1,0 +1,70 @@
+body{
+  font-family: Raleway;
+}
+
+.main-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.player-selection{
+  margin-bottom: 10px;
+}
+
+.player-selection > button{
+  padding: 6px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: grey;
+  color:white;
+}
+
+.player-selection > button:hover{
+  cursor: pointer;
+  background-color: #8bc34a;
+}
+
+.game-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  column-gap: 4px;
+  row-gap: 4px;
+  max-width: 500px;
+}
+
+.cell{
+  font-size: 52px;
+  border: none;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.cell:hover{
+  cursor: pointer;
+}
+
+footer{
+  margin-top:10px;
+}
+
+.results-wrapper{
+  margin-bottom: 14px;
+}
+
+button#restart {
+  font-family: 'Raleway';
+  background-color: #E91E63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button#restart:hover{
+  cursor:pointer;
+  background-color: #dc6b92;
+}
