@@ -22,3 +22,5 @@ npm run test
 npm run dev
 ```
 
+## Access the application
+http://localhost:5173/ or view it on Github pages at :https://shathiso.github.io/tic_tac_toe/
